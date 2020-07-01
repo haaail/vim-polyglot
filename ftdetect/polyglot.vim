@@ -302,6 +302,7 @@ if index(g:polyglot_disabled, 'jenkins') == -1
   au BufNewFile,BufRead *.jenkinsfile set ft=Jenkinsfile
   au BufNewFile,BufRead *.jenkinsfile set ft=Jenkinsfile
   au BufNewFile,BufRead *.Jenkinsfile set ft=Jenkinsfile
+  au BufNewFile,BufRead *.groovy set ft=Jenkinsfile
 endif
 
 if index(g:polyglot_disabled, 'jinja') == -1
